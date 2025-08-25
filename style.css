@@ -110,3 +110,19 @@ input:focus {
     border-color: var(--border-focus-col);
     color: var(--btn-main-col);
 }
+.option {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;
+    background-color: var(--border-focus-col);
+}
+.option label {font-size: 17px; margin-top: 10px}
+input[type="radio"] {
+    accent-color: var(--border-focus-col);
+    margin-right: 5px;
+}
