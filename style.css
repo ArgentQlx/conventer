@@ -124,10 +124,57 @@ input:focus {
     background-color: var(--border-focus-col);
 }
 @media (max-width: 767px) {
-    .wrapper {margin-top: 150px !important}
-    .field input {width: 150px !important}
-    .row {flex-direction: column !important}
-    .menu {flex-direction: row !important}
+    * {
+        font-size: 16px;
+    }
+    .wrapper {
+        margin-top: 150px;
+        gap: 50px;
+        padding: 10px;
+        top: 35%;
+    }
+    .menu {
+        flex-direction: row;
+        gap: 5px;
+    }
+    .row {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .menu button {
+        min-height: 40px;
+        min-width: 120px;
+        font-size: 16px;
+    }
+    .conventer {
+        gap: 10px;
+    }
+    .field input {
+        width: 120px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .units {
+        gap: 10px;
+    }
+    .option {
+        top: 10px;
+        left: 10px;
+        padding: 8px;
+    }
+    .option label {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    @media (max-width: 380px) {
+        .menu button {
+            min-width: 100px;
+            font-size: 14px;
+        }
+        .field input {
+            width: 100px;
+        }
+    }
 }
 .option label {font-size: 17px; margin-top: 10px}
 input[type="radio"] {
@@ -135,3 +182,4 @@ input[type="radio"] {
     margin-right: 5px;
 
 }
+
