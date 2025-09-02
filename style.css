@@ -95,8 +95,8 @@ input:focus {
 }
 .units {
     display: flex;
-    position: relative;
-    margin-top: auto;
+    position: absolute;
+    margin-top: 50%;
     gap: 50px;
 }
 .column {
@@ -156,6 +156,7 @@ input:focus {
     }
     .units {
         gap: 10px;
+        margin-top: 95%;
     }
     .option {
         top: 10px;
@@ -176,10 +177,9 @@ input:focus {
         }
     }
 }
+
 .option label {font-size: 17px; margin-top: 10px}
 input[type="radio"] {
     accent-color: var(--border-focus-col);
     margin-right: 5px;
-
 }
-
