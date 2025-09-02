@@ -124,13 +124,14 @@ input:focus {
     background-color: var(--border-focus-col);
 }
 @media (max-width: 767px) {
-    .wrapper {margin-top: 150px}
-    .field input {width: 150px}
-    .row {flex-direction: column}
-    .menu {flex-direction: row}
+    .wrapper {margin-top: 150px !important}
+    .field input {width: 150px !important}
+    .row {flex-direction: column !important}
+    .menu {flex-direction: row !important}
 }
 .option label {font-size: 17px; margin-top: 10px}
 input[type="radio"] {
     accent-color: var(--border-focus-col);
     margin-right: 5px;
+
 }
