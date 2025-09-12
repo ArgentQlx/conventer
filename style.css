@@ -114,7 +114,6 @@ input:focus {
     display: flex;
     flex-direction: column;
     position: absolute;
-    text-align: center;
     padding: 10px;
     height: 130px;
     top: 20px;
@@ -191,6 +190,7 @@ input:focus {
 
 .option label {font-size: 17px; margin-top: 10px}
 .option input {
-    accent-color: var(--theme-col);
+    accent-color: #252525ff;
     margin-right: 5px;
 }
+
