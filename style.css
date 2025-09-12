@@ -95,8 +95,6 @@ input:focus {
 }
 .units {
     display: flex;
-    position: absolute;
-    margin-top: 50%;
     gap: 50px;
 }
 .column {
@@ -118,6 +116,7 @@ input:focus {
     position: absolute;
     text-align: center;
     padding: 10px;
+    height: 130px;
     top: 20px;
     left: 20px;
     border-radius: 5px;
@@ -136,10 +135,9 @@ input:focus {
         font-size: 16px;
     }
     .wrapper {
-        margin-top: 40px;
+        margin-top: 140px;
         gap: 50px;
         padding: 10px;
-        top: 35%;
     }
     .menu {
         flex-direction: row;
@@ -158,15 +156,19 @@ input:focus {
         gap: 10px;
     }
     .field input {
-        width: 120px;
         font-size: 16px;
         padding: 10px;
+        width: 130px;
+    }
+    #firstInp:before {
+        color: var(--text-col);
+        content: "1";
     }
     .units {
         gap: 10px;
-        margin-top: 95%;
     }
     .option {
+        height: 120px;
         top: 10px;
         left: 10px;
         padding: 8px;
@@ -182,7 +184,7 @@ input:focus {
             font-size: 14px;
         }
         .field input {
-            width: 100px;
+            width: 110px;
         }
     }
 }
